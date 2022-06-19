@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tk.skyfall.betterminehut.BetterMinehut::init"
+      {
+        "adapter": "kotlin",
+        "value": "tk.skyfall.betterminehut.BetterMinehut"
+      }
     ]
   },
   "mixins": [
